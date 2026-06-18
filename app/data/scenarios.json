@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "intent": "Follow up after a client meeting to provide additional resources and next steps.",
+    "facts": [
+      "Meeting was on June 15 regarding Q3 marketing strategy.",
+      "Client requested case studies on social media ROI.",
+      "We promised to share a draft content calendar by June 20."
+    ],
+    "tone": "professional and proactive",
+    "reference": "Subject: Follow-up & Next Steps – Q3 Marketing Strategy\n\nDear [Client],\n\nThank you again for the productive meeting on June 15 regarding your Q3 marketing strategy. As promised, I’ve attached two case studies that illustrate the ROI of social media campaigns in your industry.\n\nAdditionally, I am pleased to share our draft content calendar, which we will finalise by June 20 as agreed. Please let me know if you have any questions or would like to adjust the timeline.\n\nI look forward to continuing our collaboration.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": 2,
+    "intent": "Request for detailed proposal from a potential vendor.",
+    "facts": [
+      "We need a proposal for a custom CRM implementation.",
+      "Deadline for submission is July 5.",
+      "Must include pricing, timeline, and references."
+    ],
+    "tone": "formal and direct",
+    "reference": "Subject: Request for Proposal – CRM Implementation\n\nDear [Vendor],\n\nWe are seeking a proposal for the implementation of a custom CRM system tailored to our business processes. Please provide a comprehensive document that includes:\n\n- Detailed pricing structure\n- Project timeline with milestones\n- At least three client references from similar projects\n\nKindly submit your proposal by July 5. Should you require any additional information, do not hesitate to contact me.\n\nYours sincerely,\n[Your Name]"
+  },
+  {
+    "id": 3,
+    "intent": "Thank a colleague for exceptional support on a project.",
+    "facts": [
+      "They stayed late twice to help meet deadlines.",
+      "Their expertise in data analysis was invaluable.",
+      "The project was delivered successfully ahead of schedule."
+    ],
+    "tone": "warm and appreciative",
+    "reference": "Subject: Thank You for Your Outstanding Support\n\nDear [Colleague],\n\nI want to express my sincere gratitude for your exceptional support on the recent project. Your willingness to stay late twice really made the difference, and your deep expertise in data analysis turned complex challenges into clear insights.\n\nThanks to you, we not only met the deadline but delivered ahead of schedule – a fantastic outcome for the whole team.\n\nI truly appreciate your dedication and look forward to working together again.\n\nWarm regards,\n[Your Name]"
+  },
+  {
+    "id": 4,
+    "intent": "Apologise to a client for a delayed delivery.",
+    "facts": [
+      "The shipment was delayed by 5 days due to a supplier issue.",
+      "We have expedited the new shipping.",
+      "We offer a 10% discount on their next order as compensation."
+    ],
+    "tone": "empathetic and accountable",
+    "reference": "Subject: Apology for Delivery Delay\n\nDear [Client],\n\nI am writing to sincerely apologise for the delay in delivering your order, which is now 5 days later than promised. This was caused by an unforeseen issue with our supplier, and we deeply regret the inconvenience this may have caused you.\n\nWe have already expedited the new shipment, and you will receive tracking details by end of day. To make up for the delay, we are pleased to offer a 10% discount on your next order – simply mention this email when placing it.\n\nWe value your business and are taking steps to prevent this from happening again.\n\nPlease accept our apologies once more.\n\nYours faithfully,\n[Your Name]"
+  },
+  {
+    "id": 5,
+    "intent": "Provide a status update on a software development project.",
+    "facts": [
+      "Backend API is 80% complete.",
+      "Frontend integration will start next week.",
+      "Testing phase is scheduled to begin on July 10."
+    ],
+    "tone": "clear and concise",
+    "reference": "Subject: Project Update – Development Status\n\nDear Team,\n\nI am pleased to share that we are making steady progress on the project. The backend API is now 80% complete, and we are on track for a smooth transition. Starting next week, we will begin the frontend integration, which is expected to take about five days.\n\nTesting is scheduled to commence on July 10, as per the original plan.\n\nPlease let me know if you have any questions or concerns.\n\nBest,\n[Your Name]"
+  },
+  {
+    "id": 6,
+    "intent": "Reschedule a meeting due to a conflict.",
+    "facts": [
+      "Original meeting was set for June 22 at 10 AM.",
+      "The presenter has a family emergency.",
+      "Proposed new time is June 24 at 2 PM."
+    ],
+    "tone": "courteous and accommodating",
+    "reference": "Subject: Meeting Reschedule – New Date & Time\n\nDear All,\n\nI hope this message finds you well. Due to an unexpected family emergency, our presenter will not be able to join the meeting originally scheduled for June 22 at 10 AM. We apologise for any inconvenience this may cause.\n\nWe have tentatively rescheduled the meeting for June 24 at 2 PM. Please let me know if this time works for you; otherwise, we can find an alternative.\n\nThank you for your understanding.\n\nKind regards,\n[Your Name]"
+  },
+  {
+    "id": 7,
+    "intent": "Request feedback from a client on a recent deliverable.",
+    "facts": [
+      "We submitted the final report on June 18.",
+      "The report covers market analysis and recommendations.",
+      "We would like feedback by June 30 to incorporate into the final version."
+    ],
+    "tone": "polite and open",
+    "reference": "Subject: Request for Your Feedback – Final Report\n\nDear [Client],\n\nWe hope you’ve had a chance to review the final report we submitted on June 18. The report provides a comprehensive market analysis and a set of actionable recommendations tailored to your goals.\n\nWe would greatly appreciate your feedback on the content and structure. If you could share your thoughts by June 30, we can incorporate any adjustments before the final publication.\n\nPlease feel free to reach out with any questions.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": 8,
+    "intent": "Introduce a new team member to a client.",
+    "facts": [
+      "New team member is Jane Doe, Senior Consultant.",
+      "She has 10 years of experience in the same industry.",
+      "She will be the primary point of contact going forward."
+    ],
+    "tone": "friendly and reassuring",
+    "reference": "Subject: Introducing Jane Doe – Your New Primary Contact\n\nDear [Client],\n\nI am delighted to introduce Jane Doe, who is joining our team as Senior Consultant. Jane brings over 10 years of experience in your industry and has a proven track record of delivering exceptional results.\n\nGoing forward, Jane will be your primary point of contact for all project matters. I am confident that her expertise will add great value to our collaboration, and I know you’ll enjoy working with her.\n\nPlease join me in welcoming Jane – she will be reaching out shortly to introduce herself personally.\n\nWarmly,\n[Your Name]"
+  },
+  {
+    "id": 9,
+    "intent": "Escalate a critical issue to a higher manager for urgent resolution.",
+    "facts": [
+      "The production server is down since 2 PM.",
+      "The internal team has been unable to fix it.",
+      "We need approval to engage an external expert immediately."
+    ],
+    "tone": "urgent and concise",
+    "reference": "Subject: URGENT – Production Server Outage\n\nDear [Manager],\n\nI am writing to escalate a critical issue: the production server has been down since 2 PM today. Our internal team has exhausted all troubleshooting steps without success.\n\nWe urgently need your approval to engage an external expert who can resolve this quickly. Every minute of downtime affects our clients and revenue.\n\nPlease provide your authorisation as soon as possible – I am available on [phone] to discuss further.\n\nThank you,\n[Your Name]"
+  },
+  {
+    "id": 10,
+    "intent": "Request an extension for a project deadline.",
+    "facts": [
+      "The deadline is June 30.",
+      "We need two additional weeks because of scope creep.",
+      "We can deliver a partial version by the original deadline if needed."
+    ],
+    "tone": "persuasive and transparent",
+    "reference": "Subject: Request for Deadline Extension\n\nDear [Client],\n\nI hope you are well. I am writing to request a two‑week extension on the current project deadline (June 30). Due to recently added scope items, we need the extra time to ensure the final deliverable meets the high standards we both expect.\n\nWe understand the importance of the deadline and can deliver a functional partial version by June 30 if that would be helpful. However, to complete all features and testing thoroughly, we propose a new deadline of July 14.\n\nPlease let us know if this works for you – we are happy to discuss alternative arrangements.\n\nThank you for your understanding.\n\nBest regards,\n[Your Name]"
+  }
+]
