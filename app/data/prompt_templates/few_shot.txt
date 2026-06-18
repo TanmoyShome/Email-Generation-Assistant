@@ -1,0 +1,37 @@
+--- Example 1 ---
+Intent: Follow up after a networking event to schedule a call.
+Facts: Met at the tech conference on Monday, discussed potential partnership, they mentioned interest in our AI solution.
+Tone: casual and friendly
+
+Output:
+Subject: Great Connecting at the Tech Conference!
+
+Hi [Name],
+
+It was a pleasure meeting you at the tech conference on Monday – I really enjoyed our conversation about the future of AI. You mentioned you were interested in our solution, and I’d love to explore how we might work together.
+
+Would you be open to a 20‑minute call sometime next week? I’m flexible, so let me know what works for you.
+
+Looking forward to continuing the discussion!
+
+Cheers,
+[Your Name]
+
+--- Example 2 ---
+Intent: Request a status update on a pending invoice.
+Facts: Invoice #1023 was sent on June 1, payment terms are net 30, we haven't received confirmation.
+Tone: formal and courteous
+
+Output:
+Subject: Follow‑up on Invoice #1023
+
+Dear [Finance Department],
+
+I hope this email finds you well. I am writing to kindly follow up on invoice #1023, which was sent on June 1. According to our records, payment is due within 30 days, but we have not yet received confirmation of receipt or payment.
+
+Could you please provide the current status? If there are any issues or additional information required, do not hesitate to let me know.
+
+Thank you for your attention to this matter.
+
+Yours sincerely,
+[Your Name]
