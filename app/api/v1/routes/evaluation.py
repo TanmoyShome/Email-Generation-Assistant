@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, File, HTTPException, UploadFile, status
-from app.api.dependencies import EmailGenerationService, get_email_generation_service
+from app.api.dependencies import EvaluationService, get_evaluation_service
 from app.config.settings import settings
 from app.repository.evaluation import evaluation_service
 from app.schemas.evaluation import (
@@ -14,11 +14,12 @@ router = APIRouter()
 EVAL_OUTPUT_DIR = Path(settings.EVAL_OUTPUT_DIR)
 EVAL_REPORT_DIR = Path(settings.EVAL_REPORT_DIR)
 
+
 @router.post("/evaluations", response_model=FileEvaluationResponse)
 async def evaluate_emails_from_file(
     service: Annotated[
-        EmailGenerationService,
-        Depends(get_email_generation_service),
+        EvaluationService,
+        Depends(get_evaluation_service),
     ],
     file: UploadFile = File(...),
 ):
@@ -68,8 +69,8 @@ async def evaluate_emails_from_file(
 @router.post("/evaluates-report", response_model=EvaluationReportResponse)
 async def evaluate_report_from_file(
     service: Annotated[
-        EmailGenerationService,
-        Depends(get_email_generation_service),
+        EvaluationService,
+        Depends(get_evaluation_service),
     ],
     file: UploadFile = File(...),
 ):

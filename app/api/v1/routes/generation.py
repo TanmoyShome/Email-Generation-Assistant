@@ -14,7 +14,7 @@ OUTPUT_DIR = Path(settings.FRONTEND_OUTPUT_DIR)
 
 @router.post("/generates", response_model=EmailGenerationResponse)
 async def generate_emails_from_file(
-    payload: Annotated[
+    service: Annotated[
         EmailGenerationService,
         Depends(get_email_generation_service),
     ],
@@ -38,7 +38,7 @@ async def generate_emails_from_file(
     results = []
     for case in email_generation.parse_cases(data):
         intent, facts, tone = email_generation.extract_case(case)
-        generated = payload.generate_email(intent, facts, tone)
+        generated = service.generate_email(intent, facts, tone)
         results.append(
             {
                 "id": case.get("id"),

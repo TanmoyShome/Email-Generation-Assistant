@@ -10,7 +10,6 @@ from app.src.prompt_engine import PromptEngine
 class EmailGenerationService:
     def __init__(self):
         self.prompt_engine = PromptEngine(settings.PROMPT_TEMPLATES_DIR)
-        self.evaluator = Evaluator()
 
     def generate_email(self, intent: str, facts: list[str], tone: str) -> dict:
         facts = [fact.strip() for fact in facts if fact.strip()]
@@ -52,15 +51,23 @@ class EmailGenerationService:
             "prompt_technique": self.prompt_engine.technique_summary(),
         }
 
+@lru_cache
+def get_email_generation_service() -> EmailGenerationService:
+    return EmailGenerationService()
+
+
+class EvaluationService:
+    def __init__(self):
+        self.evaluator = Evaluator()
+
     def evaluate_email(self, email: str, intent: str, facts: list[str], tone: str) -> dict:
         context = {"intent": intent, "facts": facts, "tone": tone}
         return {
             "metrics": self.evaluator.evaluate(email, context),
             "metric_definitions": self.evaluator.definitions(),
-            "prompt_technique": self.prompt_engine.technique_summary(),
         }
 
 
 @lru_cache
-def get_email_generation_service() -> EmailGenerationService:
-    return EmailGenerationService()
+def get_evaluation_service() -> EvaluationService:
+    return EvaluationService()
