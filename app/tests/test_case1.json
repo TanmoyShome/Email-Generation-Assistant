@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "intent": "Follow up after a client meeting to provide additional resources and next steps.",
+    "facts": [
+      "Meeting was on June 15 regarding Q3 marketing strategy.",
+      "Client requested case studies on social media ROI.",
+      "We promised to share a draft content calendar by June 20."
+    ],
+    "tone": "professional and proactive"
+  },
+  {
+    "id": 2,
+    "intent": "Request for detailed proposal from a potential vendor.",
+    "facts": [
+      "We need a proposal for a custom CRM implementation.",
+      "Deadline for submission is July 5.",
+      "Must include pricing, timeline, and references."
+    ],
+    "tone": "formal and direct"
+  },
+  {
+    "id": 3,
+    "intent": "Thank a colleague for exceptional support on a project.",
+    "facts": [
+      "They stayed late twice to help meet deadlines.",
+      "Their expertise in data analysis was invaluable.",
+      "The project was delivered successfully ahead of schedule."
+    ],
+    "tone": "warm and appreciative"
+  },
+  {
+    "id": 4,
+    "intent": "Apologise to a client for a delayed delivery.",
+    "facts": [
+      "The shipment was delayed by 5 days due to a supplier issue.",
+      "We have expedited the new shipping.",
+      "We offer a 10% discount on their next order as compensation."
+    ],
+    "tone": "empathetic and accountable"
+  },
+  {
+    "id": 5,
+    "intent": "Provide a status update on a software development project.",
+    "facts": [
+      "Backend API is 80% complete.",
+      "Frontend integration will start next week.",
+      "Testing phase is scheduled to begin on July 10."
+    ],
+    "tone": "clear and concise"
+  },
+  {
+    "id": 6,
+    "intent": "Reschedule a meeting due to a conflict.",
+    "facts": [
+      "Original meeting was set for June 22 at 10 AM.",
+      "The presenter has a family emergency.",
+      "Proposed new time is June 24 at 2 PM."
+    ],
+    "tone": "courteous and accommodating"
+  },
+  {
+    "id": 7,
+    "intent": "Request feedback from a client on a recent deliverable.",
+    "facts": [
+      "We submitted the final report on June 18.",
+      "The report covers market analysis and recommendations.",
+      "We would like feedback by June 30 to incorporate into the final version."
+    ],
+    "tone": "polite and open"
+  },
+  {
+    "id": 8,
+    "intent": "Introduce a new team member to a client.",
+    "facts": [
+      "New team member is Jane Doe, Senior Consultant.",
+      "She has 10 years of experience in the same industry.",
+      "She will be the primary point of contact going forward."
+    ],
+    "tone": "friendly and reassuring"
+  },
+  {
+    "id": 9,
+    "intent": "Escalate a critical issue to a higher manager for urgent resolution.",
+    "facts": [
+      "The production server is down since 2 PM.",
+      "The internal team has been unable to fix it.",
+      "We need approval to engage an external expert immediately."
+    ],
+    "tone": "urgent and concise"
+  },
+  {
+    "id": 10,
+    "intent": "Request an extension for a project deadline.",
+    "facts": [
+      "The deadline is June 30.",
+      "We need two additional weeks because of scope creep.",
+      "We can deliver a partial version by the original deadline if needed."
+    ],
+    "tone": "persuasive and transparent"
+  }
+]
